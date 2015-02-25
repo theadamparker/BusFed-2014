@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,8 @@
 
         <link rel="stylesheet" href="style/style.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/vendor/jquery-scrollto.js"></script>
+
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -19,26 +21,41 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div>
+
+        <nav>
+            <ul>
+                <li><a>Intro</a></li>
+                <li><a>Of Young People</a></li>
+                <li><a>By Young People</a></li>
+                <li><a><For All People</a></li>
+            </ul>
+        </nav>
+
+        <div id="intro">
             <h1>Intro from ED</h1>
             <p>Matt tweet (or short Facebook post), screenshot & include that as the message from the ED</p>
         </div>
 
-        <div>
+        <div id="of">
             <h1>Of Young People</h1>
         </div>
 
-        <div>
+        <div id="by">
             <h1>By Young People</h1>
         </div>
 
-        <div>
+        <div id="for">
             <h1>For All People</h1>
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script>
+
+        $('#intro').ScrollTo();
+
+        </script>
+
+
+
     </body>
 </html>

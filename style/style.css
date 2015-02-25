@@ -98,3 +98,15 @@ table {
 }
 
 /* End of Grid */
+
+/* Navigation */
+
+nav {
+  position: fixed;
+  top: 0;
+  background: #999;
+  width: 100%;
+  padding: 2em;
+}
+
+
