@@ -115,6 +115,11 @@ nav {
   padding: 2em;
 }
 
+/* Trying to create the active state for nav items */
+nav li > .active {
+    text-transform: uppercase;
+}
+
 .section {
   min-height: 20em;
   margin: 0 auto 1em;
