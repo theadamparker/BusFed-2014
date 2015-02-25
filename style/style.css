@@ -115,6 +115,11 @@ nav {
   padding: 2em;
 }
 
+nav li {
+    text-align: center;
+    font-size: 1.5em;
+}
+
 /* Trying to create the active state for nav items */
 nav li > .active {
     text-transform: uppercase;
