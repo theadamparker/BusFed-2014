@@ -55,9 +55,7 @@ table {
 }
 
 .grid {
-/*  margin: 0 1.5em 0 0;*/
-  margin: 0 auto;
-  max-width: 1600px;
+  margin: 0 1.5em 0 0;
 }
 .grid:after {
   /* Or @extend clearfix */
