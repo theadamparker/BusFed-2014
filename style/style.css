@@ -99,7 +99,9 @@ table {
 
 /* End of Grid */
 
-/* Navigation */
+body {
+  font-size: 16px;
+}
 
 nav {
   position: fixed;
@@ -107,6 +109,12 @@ nav {
   background: #999;
   width: 100%;
   padding: 2em;
+}
+
+.section {
+  min-height: 20em;
+  margin: 0 auto 1em;
+  background: blue;
 }
 
 
