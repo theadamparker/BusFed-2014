@@ -99,6 +99,7 @@ table {
 .module {
   padding: 20px;
   background: #eee;
+  min-height: 8em;
 }
 
 @media only screen 
@@ -155,6 +156,7 @@ h1 {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
+  margin-top: 4em;
 }
 
 #of {
