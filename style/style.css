@@ -55,7 +55,8 @@ table {
 }
 
 .grid {
-  margin: 0 1.5em 0 0;
+/*  margin: 0 1.5em 0 0;*/
+  margin: 0 auto;
   max-width: 1600px;
 }
 .grid:after {
@@ -70,7 +71,7 @@ table {
 }
 
 .grid-pad > [class*='col-']:last-of-type {
-  padding-right: 20px;
+  padding-right: 1.5em;
 }
 
 [class*='col-'] {
