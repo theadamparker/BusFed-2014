@@ -139,6 +139,7 @@ h1 + p {
   font-size: 1.2em;
   color: #FDB913;
   text-align: center;
+  text-transform: uppercase;
 }
 
 h2 {
