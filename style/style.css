@@ -160,16 +160,18 @@ body {
 
 nav {
   position: fixed;
-  top: 0;
+  top: 20%;
   background: #999;
-  width: 100%;
+  width: 10%;
   padding: 1em;
 }
 
-nav li {
-    text-align: center;
-    font-size: 1.2em;
+nav a {
+    text-align: left;
+    font-size: .8em;
     color: #fff;
+    display: block;
+    margin-bottom: 1em;
 }
 
 /* Trying to create the active state for nav items */
@@ -181,7 +183,7 @@ nav li > .active {
   min-height: 40em;
   margin: 0 auto;
   background: blue;
-  padding: 1em 0 3em;
+  padding: 1em 0 3em 10%;
 }
 
 .module {
