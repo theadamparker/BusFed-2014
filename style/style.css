@@ -135,7 +135,7 @@ h1 {
 }
 
 /* H1 Subtitle */
-h1 + p {
+.section h1 + p {
   font-family: 'Rokkitt', serif;  
   font-size: 1.2em;
   color: #FDB913;
