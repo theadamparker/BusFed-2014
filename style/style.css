@@ -244,6 +244,11 @@ nav li > .active {
   background: #3d3d3d;
 }
 
+.orangedivide {
+    width: 100%;
+    border-bottom: 1px solid #FDB913;
+}
+
 /* dummy styles before we have real content */
 
 .mockblock {
