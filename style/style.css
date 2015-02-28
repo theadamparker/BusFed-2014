@@ -104,12 +104,6 @@ table {
   width: 12.5%;
 }
 
-.module {
-  padding: 20px;
-  background: #eee;
-  min-height: 8em;
-}
-
 @media only screen 
 and (max-width : 500px) {
 
@@ -187,6 +181,13 @@ nav li > .active {
   margin: 0 auto;
   background: blue;
   padding: 1em 0 3em;
+}
+
+.module {
+  padding: 20px;
+  background: #eee;
+  min-height: 20em;
+  margin-bottom: 8em;
 }
 
 #intro {
