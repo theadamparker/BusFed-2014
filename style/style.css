@@ -190,6 +190,11 @@ nav li > .active {
   margin-bottom: 8em;
 }
 
+.connector:after {
+    height: 1em;
+    border-left: 1px dotted black;
+}
+
 #intro {
     background: #3d3d3d;
 }
