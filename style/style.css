@@ -187,11 +187,13 @@ nav li > .active {
   padding: 20px;
   background: #eee;
   min-height: 20em;
-  margin-bottom: 8em;
 }
 
-.connector:after {
-    content: url(img/connector-dotted.png);
+.connector {
+    background: url(img/connector-dotted.png) center center;
+    height: 261px;
+    width: 3px;
+    margin: 0 auto;
 }
 
 #intro {
