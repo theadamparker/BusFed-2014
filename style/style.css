@@ -159,7 +159,8 @@ h4 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.2em;
   margin: 0 0 1em;
-  color: #FDB913;
+  color: #0DC3F2;
+  text-align: center;
 }
 
 p {
@@ -229,6 +230,10 @@ nav li > .active {
 
 #by {
   background: #3D3D3D;
+}
+
+#by p {
+    color: #fff;
 }
 
 #about {
