@@ -190,7 +190,7 @@ nav li > .active {
 }
 
 .connector {
-    background: url(img/connector-dotted.png) center center;
+    background: url(img/connector-dot.svg) center center repeat-y;
     height: 261px;
     width: 3px;
     margin: 0 auto;
@@ -209,10 +209,6 @@ nav li > .active {
 
 #by {
   background: blue;
-}
-
-.stick {
-    color: red;
 }
 
 
