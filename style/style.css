@@ -168,8 +168,11 @@ h1 {
   margin: 4em 0 1.5em;
 }
 
+#intro {
+    background: #3d3d3d;
+}
 #of {
-  background: red;
+  background: #fff;
 }
 
 #for {
