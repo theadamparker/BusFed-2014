@@ -191,8 +191,7 @@ nav li > .active {
 }
 
 .connector:after {
-    height: 1em;
-    border-left: 1px dotted black;
+    content: url(img/connector-dotted.png);
 }
 
 #intro {
