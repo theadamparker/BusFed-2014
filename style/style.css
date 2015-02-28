@@ -216,27 +216,27 @@ nav li > .active {
     margin: 0 auto;
 }
 
-#intro {
+.intro {
     background: #3d3d3d;
 }
 
-#of {
+.of {
   background: #fff;
 }
 
-#for {
+.for {
   background: white;
 }
 
-#by {
+.by {
   background: #3D3D3D;
 }
 
-#by h2 {
+.by h2 {
     color: ;
 }
 
-#by p {
+.by p {
     color: #fff;
 }
 
