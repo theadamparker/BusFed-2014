@@ -208,7 +208,7 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked ~ .topnav {
-    display: block;
+    height: auto;
 }
 
 /* Mobile Nav */
@@ -220,7 +220,7 @@ and (max-width : 500px) {
         position: fixed;
         top: 0;
         width: 100%;
-        display: none;
+        height: 0;
     }
     
     ul {
