@@ -242,6 +242,15 @@ and (max-width : 500px) {
   padding: 1em 0 3em 10%;
 }
 
+/* centering sections when nav switches to top */
+
+@media only screen 
+and (max-width : 500px) {
+    .section {
+      padding-left: 0;
+    }
+}
+
 .module {
   padding: 20px;
   background: #eee;
