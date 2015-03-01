@@ -329,6 +329,13 @@ figcaption {
     margin: 1em 0;
 }
 
+.punchline {
+    color: #FDB913;
+    font-family: 'Rokkitt', serif;
+    font-size: 1.3em;
+    text-align: center
+}
+
 /* dummy styles before we have real content */
 
 .mockblock {
