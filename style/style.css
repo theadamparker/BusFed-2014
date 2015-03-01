@@ -265,6 +265,8 @@ nav li > .active {
     border-radius: 50%;
     width: 7em;
     height: 7em;
+    color: #999;
+}
 
 
 
