@@ -261,5 +261,10 @@ nav li > .active {
     background: #999;
 }
 
+.mockcircle {
+    border-radius: 50%;
+    width: 7em;
+    height: 7em;
+
 
 
