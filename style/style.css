@@ -197,13 +197,17 @@ nav a {
 
 .show-menu {
 	display: none;
+    position: absolute;
+    top: 0;
+    left: 1.5em;
+    z-index: 10;
 }
 
 input[type=checkbox] {
     display: none;
 }
 
-input[type=checkbox]:checked ~ #menu {
+input[type=checkbox]:checked ~ .topnav {
     display: block;
 }
 
@@ -212,10 +216,11 @@ input[type=checkbox]:checked ~ #menu {
 @media only screen 
 and (max-width : 500px) {
     
-    nav {
+    .topnav {
         position: fixed;
         top: 0;
         width: 100%;
+        display: none;
     }
     
     ul {
