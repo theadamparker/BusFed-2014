@@ -306,8 +306,9 @@ and (max-width : 500px) {
 
 figure {
     font-family: 'Rokkitt', serif;
-    font-size: 4em;
+    font-size: 5em;
     text-align: center;
+    color: #fff;
 }
 
 figcaption {
@@ -315,6 +316,7 @@ figcaption {
     font-size: 1.3em;
     text-transform: uppercase;
     text-align: center;
+    color: #0DC3F2;
 }
 
 .orangedivide {
