@@ -177,6 +177,8 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* Navigation */
+
 nav {
   position: fixed;
   top: 20%;
@@ -193,15 +195,50 @@ nav a {
     margin-bottom: 1em;
 }
 
-/* Trying to create the active state for nav items */
-nav li > .active {
-    text-transform: uppercase;
+.show-menu {
+	display: none;
 }
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]:checked ~ #menu {
+    display: block;
+}
+
+/* Mobile Nav */
+
+@media only screen 
+and (max-width : 500px) {
+    
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    ul {
+		position: static;
+		display: none;
+	}
+
+    nav a {
+		margin-bottom: 1px;
+        width: 100%;
+	}
+    
+	.show-menu {
+		display:block;
+	}
+    
+}
+
+/* End of Navigation */
 
 .section {
   min-height: 40em;
   margin: 0 auto;
-  background: blue;
   padding: 1em 0 3em 10%;
 }
 
@@ -253,6 +290,7 @@ nav li > .active {
 .orangedivide {
     width: 100%;
     border-bottom: 1px solid #FDB913;
+    margin: 1em 0;
 }
 
 /* dummy styles before we have real content */
