@@ -266,6 +266,11 @@ and (max-width : 500px) {
     }
 }
 
+.fixed {
+  position: fixed;
+  top: 2em;
+}
+
 .module {
   padding: 20px;
   background: #eee;
