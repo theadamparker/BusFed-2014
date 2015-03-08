@@ -189,6 +189,7 @@ nav {
   background: #999;
   width: 10%;
   padding: 1em;
+  z-index: 5;
 }
 
 nav a {
@@ -252,6 +253,8 @@ and (max-width : 500px) {
   min-height: 40em;
   margin: 0 auto;
   padding: 1em 0 3em 10%;
+  position: relative;
+  z-index: 1;
 }
 
 /* centering sections when nav switches to top */
