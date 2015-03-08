@@ -266,19 +266,26 @@ and (max-width : 500px) {
     }
 }
 
-.fixed {
-  position: fixed;
-  top: 2em;
-}
+/* Sticky elements only apply to full screen */
 
-.stick .col-1-3 {
-  position: absolute;
-  width: 30%;
-}
+@media only screen 
+and (min-width : 500px) {
 
-.stick .col-2-3 {
-  float: right;
-  padding-right: 0;
+  .fixed {
+    position: fixed;
+    top: 2em;
+  }
+
+  .stick .col-1-3 {
+    position: absolute;
+    width: 30%;
+  }
+
+  .stick .col-2-3 {
+    float: right;
+    padding-right: 0;
+  }
+
 }
 
 .module {
