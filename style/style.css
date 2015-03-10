@@ -392,5 +392,11 @@ figcaption {
     background: #999;
 }
 
+footer {
+  min-height: 25em;
+  background: url('../img/bus.gif');
+  background-size: cover;
+}
+
 
 
