@@ -276,12 +276,11 @@ and (min-width : 500px) {
     top: 2em;
   }
 
-  .sticky-wrapper {
-    height: 0;
-    position: absolute;
+  .stickem-container {
+    position: relative;
   }
 
-  .stick {
+  .stickem {
     width: calc(33% - 1.5em);
   }
 
