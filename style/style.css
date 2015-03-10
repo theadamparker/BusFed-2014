@@ -281,17 +281,22 @@ and (min-width : 500px) {
   }
 
   .stickem {
-    width: calc(33% - 1.5em);
+
   }
 
-  .stuck {
+  .stickit {
     position: fixed;
-    z-index: 2;
     top: 0;
-    width: calc(30% - 1.5em);
+    width: 30%;
   }
 
-  .stickwrap .col-2-3 {
+  .stickit-end {
+    bottom: 1.5em;
+    position: absolute;
+    left: 1.5em;
+  }
+
+  .stickem-container .col-2-3 {
     float: right;
     padding-right: 0;
   }
