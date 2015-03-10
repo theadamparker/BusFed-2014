@@ -189,6 +189,7 @@ nav {
   background: #999;
   width: 10%;
   padding: 1em;
+  z-index: 5;
 }
 
 nav a {
@@ -200,7 +201,7 @@ nav a {
 }
 
 .show-menu {
-	display: none;
+  display: none;
     position: fixed;
     top: 0;
     left: 1.5em;
@@ -231,18 +232,18 @@ and (max-width : 500px) {
     }
     
     ul {
-		position: static;
-		display: none;
-	}
+    position: static;
+    display: none;
+  }
 
     nav a {
-		margin-bottom: 1px;
+    margin-bottom: 1px;
         width: 100%;
-	}
+  }
     
-	.show-menu {
-		display:block;
-	}
+  .show-menu {
+    display:block;
+  }
     
 }
 
@@ -252,6 +253,8 @@ and (max-width : 500px) {
   min-height: 40em;
   margin: 0 auto;
   padding: 1em 0 3em 10%;
+  position: relative;
+  z-index: 1;
 }
 
 /* centering sections when nav switches to top */
@@ -261,6 +264,43 @@ and (max-width : 500px) {
     .section {
       padding-left: 0;
     }
+}
+
+/* Sticky elements only apply to full screen */
+
+@media only screen 
+and (min-width : 500px) {
+
+  .fixed {
+    position: fixed;
+    top: 2em;
+  }
+
+  .stickem-container {
+    position: relative;
+  }
+
+  .stickem {
+
+  }
+
+  .stickit {
+    position: fixed;
+    top: 0;
+    width: 30%;
+  }
+
+  .stickit-end {
+    bottom: 1.5em;
+    position: absolute;
+    left: 1.5em;
+  }
+
+  .stickem-container .col-2-3 {
+    float: right;
+    padding-right: 0;
+  }
+
 }
 
 .module {
