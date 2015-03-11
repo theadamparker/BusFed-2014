@@ -143,10 +143,10 @@ h1 {
 /* H1 Subtitle */
 .section h1 + p {
   font-family: 'Rokkitt', serif;  
-  font-size: 1.2em;
+  font-size: 1.6em;
   color: #FDB913;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 h2 {
