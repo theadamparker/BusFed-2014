@@ -515,8 +515,9 @@ and (max-width : 500px) {
 }
 
 .logo {
-  margin: 0 auto 1rem;
+  margin: 0 auto 1.5rem;
   display: block;
+  max-width: 15rem;
 }
 
 div.issue {
