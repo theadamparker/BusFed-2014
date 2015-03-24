@@ -224,6 +224,10 @@ p {
   margin: 0 0 1rem;
 }
 
+p em {
+  font-weight: 700;
+}
+
 /* End of Typography */
 
 body {
@@ -389,6 +393,15 @@ and (min-width : 500px) {
   background: white;
 }
 
+#progress {
+  background: #0db1e0;
+}
+
+#progress h2,
+#progress h3 {
+  color: #fff;
+}
+
 #by {
   background: #3D3D3D;
 }
@@ -451,6 +464,12 @@ figcaption {
   color: #eba713;
 }
 
+#about .emphasis {
+  text-align: center;
+  max-width: 45rem;
+  margin: 0 auto 5rem;
+}
+
 p.emphasis {
   font-weight: 700;
   font-size: 1.5rem;
@@ -497,6 +516,16 @@ and (max-width : 500px) {
 .logo {
   margin: 0 auto 1rem;
   display: block;
+}
+
+div.issue {
+  border-top: 1px solid #eba713;
+  padding-top: 3rem;
+  margin-bottom: 1em;
+}
+
+.orange {
+  color: #eba713;
 }
 
 /* dummy styles before we have real content */
