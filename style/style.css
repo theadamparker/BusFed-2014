@@ -524,6 +524,10 @@ div.issue {
   margin-bottom: 1em;
 }
 
+img.issue {
+  margin-bottom: 1rem;
+}
+
 .orange {
   color: #eba713;
 }
