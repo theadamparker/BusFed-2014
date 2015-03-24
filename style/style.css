@@ -180,7 +180,8 @@ h1 {
   color: #FDB913;
   text-align: center;
   text-transform: none;
-  margin-bottom: 4rem;
+  max-width: 45rem;
+  margin-top: 0 auto 4rem;
 }
 
 h2 {
