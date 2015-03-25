@@ -552,6 +552,13 @@ img.issue {
   margin-bottom: .5rem;
 }
 
+.credits h3 {
+  font-family: 'Rokkitt', serif;
+  font-weight: 400;
+  color: #0db1e0;
+  font-size: 1.8rem;
+}
+
 /* dummy styles before we have real content */
 
 .mockblock {
