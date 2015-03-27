@@ -180,6 +180,10 @@ h1 {
   margin: 0 auto 4rem;
 }
 
+#for h1 + p {
+  color: #000;
+}
+
 #about h1 + p {
   color: #fff;
 }
@@ -202,6 +206,10 @@ h2 {
 #about h2 {
   text-align: center;
   color: #eba713;
+}
+
+#for .issue h2 {
+  color: #017280;
 }
 
 h3 {
@@ -557,6 +565,50 @@ img.issue {
   font-weight: 400;
   color: #0db1e0;
   font-size: 1.8rem;
+}
+
+.facebook {
+  font-family: Helvetica, arial, sans-serif;
+}
+
+.facebook p {
+  font-size: .9rem;
+  line-height: 1.5;
+}
+
+.facebook img {
+  width: 4rem;
+  float: left;
+  margin-right: .6rem;
+}
+
+.name {
+  margin-top: .5rem;
+}
+
+.name h4 {
+  color: #3b5986;
+  text-transform: none;
+  font-size: 1.1rem;
+  margin-bottom: .1rem;
+}
+
+.name p {
+  color: #808591;
+  font-size: .9rem;
+  margin-bottom: 1rem;
+}
+
+.actions p {
+  color: #6d80ad;
+}
+
+.actions p a:link,
+.actions p a:active,
+.actions p a:visited,
+.actions p a:hover {
+  color: #6d80ad;
+  text-decoration: none;
 }
 
 /* dummy styles before we have real content */
