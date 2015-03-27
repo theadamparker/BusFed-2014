@@ -107,6 +107,10 @@ table {
   padding: 1rem;
 }
 
+.pad .grid {
+  margin-right: 0;
+}
+
 #executivedirector > .pad > .grid > [class*='col-'] {
   padding: 1.5rem;
   background: #fff;
@@ -597,6 +601,12 @@ img.issue {
   color: #808591;
   font-size: .9rem;
   margin-bottom: 1rem;
+}
+
+.actions {
+  border-top: 1px solid #d7d9db;
+  width: 100%;
+  padding-top: 1rem;
 }
 
 .actions p {
