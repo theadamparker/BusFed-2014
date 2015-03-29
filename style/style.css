@@ -675,15 +675,19 @@ img.issue {
 
 .accordion {
   overflow:hidden;
+  border: 1px solid #eba713;
+  border-right: 0;
+  border-left: 0;
 }
 
 .accordion-section-title {
     width:100%;
     display:inline-block;
-    background:#333;
     transition:all linear 0.15s;
     color:#fff;
-    padding: 2rem;
+    padding: 2rem 0;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .accordion-section-title.active, .accordion-section-title:hover {
@@ -699,6 +703,10 @@ img.issue {
 /*----- Section Content -----*/
 .accordion-section-content {
     display:none;
+}
+
+.right {
+  text-align: right;
 }
 
 footer {
