@@ -340,6 +340,7 @@ and (max-width : 500px) {
         overflow: hidden;
         padding: 0;
         transition: all 0.5s ease;
+        background: rgba(13, 195, 242, 0.9);
     }
     
     ul {
@@ -352,6 +353,7 @@ and (max-width : 500px) {
       width: 100%;
       text-align: center;
       padding: .5rem 0;
+      border-bottom: 1px solid #fff;
     }
 
     nav .active {
@@ -433,16 +435,31 @@ and (min-width : 500px) {
     margin: 0 auto;
 }
 
+#intro .wrap {
+  float: right;
+  margin-top: 5rem;
+  margin-right: 4rem;
+}
+
+.wrap img {
+  width: 23rem;
+}
+
 #intro {
     background: url('../img/introphoto.jpg');
     background-size: cover;
 }
 
 #intro h1 {
-  float: right;
+  font-family: 'Helvetica Neue', Helvetica, arial, sans-serif;
   text-align: left;
   padding-right: 5rem;
-  font-size: 3rem;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+#intro h1 span span {
+  font-size: 4rem;
 }
 
 #executivedirector {
@@ -517,12 +534,12 @@ figcaption {
 
 .highlight {
   display: inline;
-  background: rgba(13, 195, 242, 0.68);
+  background: rgba(13, 195, 242, 1);
   color: white; 
   padding: .25rem;
   padding-left: 0;
   padding-right: 0;
-  box-shadow: 10px 0 0 rgba(13, 195, 242, 0.68), -10px 0 0 rgba(13, 195, 242, 0.68);
+  box-shadow: 10px 0 0 rgba(13, 195, 242, 1), -10px 0 0 rgba(13, 195, 242, 1);
   /*-webkit-box-decoration-break: clone;
   -ms-box-decoration-break: clone;
   -o-box-decoration-break: clone;
@@ -707,6 +724,10 @@ img.issue {
 
 .right {
   text-align: right;
+}
+
+.serif {
+  font-family: 'Rokkitt', serif;
 }
 
 footer {
