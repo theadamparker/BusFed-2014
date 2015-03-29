@@ -16,7 +16,14 @@ function drawChartRev() {
   ]);
 
   // Set chart options
-  var options = {'title':'Bus Fed Revenue'};
+  var options = { backgroundColor: 'transparent' , 
+    legend:{ position:'none' } , 
+    'width':450,
+    'height':450,
+    chartArea: {
+      width: 450 ,
+      height: 450 }
+    };
 
   // Instantiate and draw our chart, passing in some options.
   var chart = new google.visualization.PieChart(document.getElementById('chart_revenue'));
@@ -44,7 +51,14 @@ function drawChartExp() {
   ]);
 
   // Set chart options
-  var options = {'title':'Bus Fed Expenses'};
+  var options = { backgroundColor: 'transparent' , 
+    legend:{ position:'none' } , 
+    'width':450,
+    'height':450,
+    chartArea: {
+      width: 450 ,
+      height: 450 }
+    };
 
   // Instantiate and draw our chart, passing in some options.
   var chart = new google.visualization.PieChart(document.getElementById('chart_expenses'));
