@@ -497,7 +497,7 @@ figure {
 figcaption {
     font-family: 'Rokkitt', serif;
     font-size: 1.3rem;
-    text-transform: uppercase;
+    text-transform: none;
     text-align: center;
     color: #0DC3F2;
 }
