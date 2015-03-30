@@ -461,6 +461,7 @@ and (min-width : 500px) {
 
 #intro h1 span span {
   font-size: 6rem;
+  font-weight: 700;
 }
 
 @media only screen 
