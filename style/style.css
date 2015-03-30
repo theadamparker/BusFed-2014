@@ -511,7 +511,7 @@ and (max-width : 500px) {
 }
 
 #progress h3 {
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 1.3rem;
 }
 
