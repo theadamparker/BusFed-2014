@@ -772,18 +772,20 @@ footer {
 /*----- Masonry Grid -----*/
 
 .masonry {
-    margin: 0;
+  width: 95%;
+    margin: 1.5em 0;
     padding: 0;
-    -moz-column-gap: 5em;
-    -webkit-column-gap: .5em;
-    column-gap: .5em;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
     font-size: .75em;
 }
 
 .item {
     display: inline-block;
-    padding: 0;
-    margin: 5%;
+    background: #333333;
+    padding: 1em;
+    margin: 0 0 1.5em;
     width: 100%;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -795,13 +797,13 @@ footer {
   font-weight: 400;
   color: #0db1e0;
   font-size: 1.8rem;
-  margin-left: 5%;
+  margin-left: 15%;
 }
 
 .masonry p {
   color: #fff;
   line-height: 1.5;
-  margin-left: 5%;
+  margin-left: 15%;
 }
 
 @media only screen and (min-width: 400px) {
