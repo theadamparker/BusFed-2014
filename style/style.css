@@ -769,6 +769,8 @@ footer {
   background-position: center;
 }
 
+/*----- Masonry Grid -----*/
+
 .masonry {
     margin: 0;
     padding: 0;
@@ -793,11 +795,13 @@ footer {
   font-weight: 400;
   color: #0db1e0;
   font-size: 1.8rem;
+  margin-left: 5%;
 }
 
 .masonry p {
   color: #fff;
   line-height: 1.5;
+  margin-left: 5%;
 }
 
 @media only screen and (min-width: 400px) {
