@@ -535,6 +535,11 @@ and (max-width : 500px) {
   background: #3D3D3D;
 }
 
+#affiliates .item:first-child {
+  background: none;
+  margin-left: calc(10% + 3rem);
+}
+
 figure {
     font-family: 'Rokkitt', serif;
     font-size: 5rem;
@@ -792,19 +797,19 @@ footer p {
 /*----- Masonry Grid -----*/
 
 .masonry {
-  width: 95%;
+  width: 100%;
   padding: 0;
-  -moz-column-gap: 1.5em;
-  -webkit-column-gap: 1.5em;
-  column-gap: 1.5em;
-  font-size: .75em;
+  -moz-column-gap: 1.5rem;
+  -webkit-column-gap: 1.5rem;
+  column-gap: 1.5rem;
+  font-size: .75rem;
 }
 
 .item {
     display: inline-block;
     background: #333333;
     padding: 1em;
-    margin: 0 0 1.5em;
+    margin: 0 0 1.5rem;
     width: 100%;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
