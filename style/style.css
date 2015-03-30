@@ -739,6 +739,11 @@ img.issue {
     text-transform: uppercase;
 }
 
+.accordion-section-title span{
+  color: #555555;
+  text-transform: none;
+}
+
 .accordion-section-title.active, .accordion-section-title:hover {
     background:#4c4c4c;
     /* Type */
