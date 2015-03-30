@@ -521,6 +521,10 @@ and (max-width : 500px) {
   background: #3d3d3d;
 }
 
+#affiliates {
+  background: #3D3D3D;
+}
+
 figure {
     font-family: 'Rokkitt', serif;
     font-size: 5rem;
