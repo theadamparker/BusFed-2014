@@ -511,7 +511,7 @@ and (max-width : 500px) {
 }
 
 #progress h3 {
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 1.3rem;
 }
 
@@ -607,11 +607,13 @@ p.emphasis {
 .headertab-left {
   margin-left: -4rem;
   padding-left: 4rem;
+  margin-top: 2rem;
 }
 
 .headertab-right {
   margin-right: -4rem;
   padding-right: 4rem;
+  margin-top: 2rem;
 }
 
 @media only screen 
