@@ -202,6 +202,7 @@ h1 {
 .section h1 + p {
   font-family: 'Rokkitt', serif;  
   font-size: 1.9rem;
+  font-weight: 500;
   line-height: 1.1;
   color: #FDB913;
   text-align: center;
@@ -460,7 +461,8 @@ and (min-width : 500px) {
 }
 
 #intro h1 span span {
-  font-size: 4rem;
+  font-size: 6rem;
+  font-weight: 700;
 }
 
 @media only screen 
@@ -517,7 +519,11 @@ and (max-width : 500px) {
 }
 
 #about {
-  background: #3d3d3d;
+  background: #3D3D3D;
+}
+
+#affiliates {
+  background: #3D3D3D;
 }
 
 figure {
@@ -550,12 +556,13 @@ figcaption {
 
 .highlight {
   display: inline;
-  background: rgba(13, 195, 242, 1);
+  background: rgba(13, 195, 242, 0.6);
   color: white; 
+  line-height: 6rem;
   padding: .25rem;
   padding-left: 0;
   padding-right: 0;
-  box-shadow: 10px 0 0 rgba(13, 195, 242, 1), -10px 0 0 rgba(13, 195, 242, 1);
+  box-shadow: 10px 0 0 rgba(13, 195, 242, 0.6), -10px 0 0 rgba(13, 195, 242, 0.6);
   /*-webkit-box-decoration-break: clone;
   -ms-box-decoration-break: clone;
   -o-box-decoration-break: clone;
