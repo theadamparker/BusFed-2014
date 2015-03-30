@@ -256,6 +256,15 @@ h4 {
   font-weight: 700;
 }
 
+
+h4-graphics {
+  font-size: 1.3rem;
+  margin: 0 0 .3rem;
+  color: #0DC3F2;
+  text-transform: none;
+  font-weight: 400;
+}
+
 h5 {
   font-family: 'Rokkitt', serif;
   font-size: 1.2rem;
