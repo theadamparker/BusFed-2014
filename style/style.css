@@ -434,6 +434,7 @@ and (min-width : 500px) {
 
 .module {
   padding: 20px;
+  margin-top: 10%;
   min-height: 20rem;
 }
 
