@@ -740,8 +740,10 @@ img.issue {
 }
 
 .accordion-section-title span{
-  color: #555555;
+  color: #808080;
   text-transform: none;
+  float: right;
+  margin-right: 5%;
 }
 
 .accordion-section-title.active, .accordion-section-title:hover {
