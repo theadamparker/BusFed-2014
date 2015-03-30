@@ -777,8 +777,7 @@ footer {
 }
 footer h3 {
   font-family: 'Rokkitt', serif;
-  font-weight: 400;
-  font-size: 1.3rem;
+  margin-top: 5%;
   color: #eaa613;
 }
 
