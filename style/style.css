@@ -463,6 +463,21 @@ and (min-width : 500px) {
   font-size: 4rem;
 }
 
+@media only screen 
+and (max-width : 500px) {
+
+  #intro .wrap {
+    float: none;
+    margin: 6rem auto 0;
+    padding: 0 2rem;
+  }
+  .wrap img {
+    width: 30rem;
+    margin-left: 0rem;
+  }
+
+}
+
 #executivedirector {
     background: #3b5986;
 }
