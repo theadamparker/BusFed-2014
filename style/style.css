@@ -256,6 +256,15 @@ h4 {
   font-weight: 700;
 }
 
+
+h4-graphics {
+  font-size: 1.3rem;
+  margin: 0 0 .3rem;
+  color: #0DC3F2;
+  text-transform: none;
+  font-weight: 400;
+}
+
 h5 {
   font-family: 'Rokkitt', serif;
   font-size: 1.2rem;
@@ -562,7 +571,7 @@ figcaption {
   padding: .25rem;
   padding-left: 0;
   padding-right: 0;
-  box-shadow: 10px 0 0 rgba(13, 195, 242, 0.6), -10px 0 0 rgba(13, 195, 242, 0.6);
+  box-shadow: 65px 0 0 rgba(13, 195, 242, 0.6), -65px 0 0 rgba(13, 195, 242, 0.6);
   /*-webkit-box-decoration-break: clone;
   -ms-box-decoration-break: clone;
   -o-box-decoration-break: clone;
