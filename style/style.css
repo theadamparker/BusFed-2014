@@ -771,9 +771,6 @@ img.issue {
 
 footer {
   min-height: 30rem;
-  background: url('../img/bus.gif');
-  background-size: cover;
-  background-position: center;
 }
 
 /*----- Masonry Grid -----*/
