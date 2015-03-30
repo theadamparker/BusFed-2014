@@ -771,9 +771,20 @@ img.issue {
 
 footer {
   min-height: 30rem;
-  background: url('../img/bus.gif');
-  background-size: cover;
-  background-position: center;
+  background-color: #3D3D3D;
+}
+footer h3 {
+  font-family: 'Rokkitt', serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #eaa613;
+}
+
+footer p {
+  font-family: 'Rokkitt', serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #fff;
 }
 
 /*----- Masonry Grid -----*/
