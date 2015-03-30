@@ -293,8 +293,7 @@ nav {
   position: fixed;
   top: 20%;
   background: rgba(13, 195, 242, 0.68);
-  /*width: 10%;*/
-  width: 11rem;
+  width: 10%;
   padding: 1rem;
   z-index: 5;
 }
@@ -306,6 +305,7 @@ nav a {
     color: #fff;
     display: block;
     margin-bottom: 1rem;
+    font-weight: 700;
 }
 
 nav .active {
