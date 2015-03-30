@@ -550,12 +550,13 @@ figcaption {
 
 .highlight {
   display: inline;
-  background: rgba(13, 195, 242, 1);
+  background: rgba(13, 195, 242, 0.6);
   color: white; 
+  line-height: 6rem;
   padding: .25rem;
   padding-left: 0;
   padding-right: 0;
-  box-shadow: 10px 0 0 rgba(13, 195, 242, 1), -10px 0 0 rgba(13, 195, 242, 1);
+  box-shadow: 10px 0 0 rgba(13, 195, 242, 0.6), -10px 0 0 rgba(13, 195, 242, 0.6);
   /*-webkit-box-decoration-break: clone;
   -ms-box-decoration-break: clone;
   -o-box-decoration-break: clone;
