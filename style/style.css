@@ -248,6 +248,13 @@ h3 {
     margin: 0 0 1rem;
 }
 
+.table h3 {
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  background: #333333;
+  color: #fff;
+}
+
 h4 {
   font-size: 1.3rem;
   margin: 0 0 .3rem;
@@ -601,7 +608,7 @@ p.emphasis {
 }
 
 [class*='headertab-'] {
-  background: rgba(13, 195, 242, 0.68);
+  background: rgba(10, 98, 121, 0.68);
   width: calc(100% + 4rem);
   padding: 1rem;
   text-align: left;
@@ -741,7 +748,7 @@ img.issue {
     display:inline-block;
     transition:all linear 0.15s;
     color:#fff;
-    padding: 2rem 0;
+    padding: 2rem 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -782,15 +789,11 @@ footer {
 }
 footer h3 {
   font-family: 'Rokkitt', serif;
-  font-weight: 400;
-  font-size: 1.3rem;
+  margin-top: 5%;
   color: #eaa613;
 }
 
 footer p {
-  font-family: 'Rokkitt', serif;
-  font-weight: 400;
-  font-size: 1rem;
   color: #fff;
 }
 
