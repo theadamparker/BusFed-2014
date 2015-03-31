@@ -139,7 +139,7 @@ and (max-width : 500px) {
 /* Balance sheet grid */
 
 .table {
-  background-color: #E0E0E0;
+  background-color: #4D4D4D;
   margin: 0 0 2rem;
 }
 
@@ -155,7 +155,7 @@ and (max-width : 500px) {
 }
 
 .line:nth-of-type(2n+2) {
-  background: #D5D5D5;
+  background: #666666;
 }
 
 .table.grid .col-1-3 {
