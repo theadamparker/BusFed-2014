@@ -124,6 +124,12 @@ table {
   width: calc(66% - 1.5rem);
 }
 
+#executivedirector .grid .votebot {
+  background: url('../img/bus.gif') no-repeat center center !important;
+  background-size: cover !important;
+  height: 40rem;
+}
+
 @media only screen 
 and (max-width : 500px) {
 
