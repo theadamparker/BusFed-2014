@@ -249,6 +249,7 @@ h3 {
 }
 
 .table h3 {
+  font-size: 1rem;
   text-transform: uppercase;
   padding: 1rem 1.5rem;
   background: #333333;
