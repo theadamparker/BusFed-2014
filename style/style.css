@@ -248,6 +248,13 @@ h3 {
     margin: 0 0 1rem;
 }
 
+.table h3 {
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  background: #333333;
+  color: #fff;
+}
+
 h4 {
   font-size: 1.3rem;
   margin: 0 0 .3rem;
@@ -741,7 +748,7 @@ img.issue {
     display:inline-block;
     transition:all linear 0.15s;
     color:#fff;
-    padding: 2rem 0;
+    padding: 2rem 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
 }
