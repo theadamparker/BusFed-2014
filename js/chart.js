@@ -23,7 +23,8 @@ function drawChartRev() {
     chartArea: {
       width: 400 ,
       height: 400 },
-    colors: ['#14b2db', '#109bba', '#1b849c', '#286a7c']
+    colors: ['#14b2db', '#109bba', '#1b849c', '#286a7c'],
+    pieSliceBorderColor : "transparent"
     };
 
   // Instantiate and draw our chart, passing in some options.
@@ -59,7 +60,8 @@ function drawChartExp() {
     chartArea: {
       width: 400 ,
       height: 400 },
-    colors: ['#da9a3c', '#c9913a', '#b78639', '#a67c36', '#937136', '#836637', '#725c37', '#eca540']
+    colors: ['#da9a3c', '#c9913a', '#b78639', '#a67c36', '#937136', '#836637', '#725c37', '#eca540'],
+    pieSliceBorderColor : "transparent"
     };
 
   // Instantiate and draw our chart, passing in some options.
