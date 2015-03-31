@@ -601,7 +601,7 @@ p.emphasis {
 }
 
 [class*='headertab-'] {
-  background: rgba(13, 195, 242, 0.68);
+  background: rgba(10, 98, 121, 0.68);
   width: calc(100% + 4rem);
   padding: 1rem;
   text-align: left;
