@@ -293,8 +293,7 @@ nav {
   position: fixed;
   top: 20%;
   background: rgba(13, 195, 242, 0.68);
-  /*width: 10%;*/
-  width: 11rem;
+  width: 10%;
   padding: 1rem;
   z-index: 5;
 }
@@ -306,6 +305,7 @@ nav a {
     color: #fff;
     display: block;
     margin-bottom: 1rem;
+    font-weight: 700;
 }
 
 nav .active {
@@ -533,6 +533,11 @@ and (max-width : 500px) {
 
 #affiliates {
   background: #3D3D3D;
+}
+
+#affiliates .item:first-child {
+  background: none;
+  margin-left: calc(10% + 3rem);
 }
 
 figure {
@@ -792,19 +797,19 @@ footer p {
 /*----- Masonry Grid -----*/
 
 .masonry {
-  width: 95%;
+  width: 100%;
   padding: 0;
-  -moz-column-gap: 1.5em;
-  -webkit-column-gap: 1.5em;
-  column-gap: 1.5em;
-  font-size: .75em;
+  -moz-column-gap: 1.5rem;
+  -webkit-column-gap: 1.5rem;
+  column-gap: 1.5rem;
+  font-size: .75rem;
 }
 
 .item {
     display: inline-block;
     background: #333333;
     padding: 1em;
-    margin: 0 0 1.5em;
+    margin: 0 0 1.5rem;
     width: 100%;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -823,6 +828,7 @@ footer p {
   color: #fff;
   line-height: 1.5;
   margin-left: 15%;
+  font-size: 1rem;
 }
 
 @media only screen and (min-width: 400px) {
