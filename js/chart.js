@@ -18,11 +18,12 @@ function drawChartRev() {
   // Set chart options
   var options = { backgroundColor: 'transparent' , 
     legend:{ position:'none' } , 
-    'width':450,
-    'height':450,
+    'width':400,
+    'height':400,
     chartArea: {
-      width: 450 ,
-      height: 450 }
+      width: 400 ,
+      height: 400 },
+    colors: ['#14b2db', '#109bba', '#1b849c', '#286a7c']
     };
 
   // Instantiate and draw our chart, passing in some options.
@@ -53,11 +54,12 @@ function drawChartExp() {
   // Set chart options
   var options = { backgroundColor: 'transparent' , 
     legend:{ position:'none' } , 
-    'width':450,
-    'height':450,
+    'width':400,
+    'height':400,
     chartArea: {
-      width: 450 ,
-      height: 450 }
+      width: 400 ,
+      height: 400 },
+    colors: ['#da9a3c', '#c9913a', '#b78639', '#a67c36', '#937136', '#836637', '#725c37', '#eca540']
     };
 
   // Instantiate and draw our chart, passing in some options.
