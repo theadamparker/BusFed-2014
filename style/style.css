@@ -152,6 +152,7 @@ and (max-width : 500px) {
 
 .line p {
   margin: 0;
+  color:#A0A0A0;
 }
 
 .line:nth-of-type(2n+2) {
