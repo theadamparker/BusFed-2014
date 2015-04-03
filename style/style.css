@@ -125,7 +125,7 @@ table {
 }
 
 #executivedirector .grid .votebot {
-  background: url('../img/bus.gif') no-repeat center center !important;
+  background: url('../img/votebot_snowangel.gif') no-repeat center center !important;
   background-size: cover !important;
   height: 40rem;
 }
@@ -140,6 +140,10 @@ and (max-width : 500px) {
   #executivedirector .col-2-3 {
     width: 100%;
   }
+
+  #executivedirector .grid .votebot {
+  height: 15rem;
+}
 }
 
 /* Balance sheet grid */
