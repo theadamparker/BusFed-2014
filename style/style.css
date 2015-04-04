@@ -863,6 +863,15 @@ figure figcaption {
   margin-right: 5%;
 }
 
+@media only screen 
+and (max-width : 500px) {
+  .accordion-section-title span {
+    float: left;
+    clear: left;
+    margin-top: .5rem;
+  }
+}
+
 .accordion-section-title.active, .accordion-section-title:hover {
     background:#4c4c4c;
     /* Type */
