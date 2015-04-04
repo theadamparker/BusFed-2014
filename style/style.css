@@ -87,6 +87,10 @@ and (max-width : 500px) {
   }
 }
 
+.col-3-4 {
+  width: 75%;
+}
+
 .col-2-3 {
   width: 66.66%;
 }
@@ -171,7 +175,7 @@ and (max-width : 500px) {
 
 .line p {
   margin: 0;
-  color: #A0A0A0;
+  color: #CDCDCD;
   margin-left: 1rem;
 }
 
@@ -196,6 +200,7 @@ and (max-width : 500px) {
       padding-right: 0;
     }
     
+    .col-3-4,
     .col-2-3,
     .col-1-2,
     .col-3-8,
@@ -844,6 +849,8 @@ figure figcaption {
   border: 1px solid #eba713;
   border-right: 0;
   border-left: 0;
+  max-width: 40rem;
+  margin: 0 auto;
 }
 
 .accordion-section-title {
@@ -861,6 +868,15 @@ figure figcaption {
   text-transform: none;
   float: right;
   margin-right: 5%;
+}
+
+@media only screen 
+and (max-width : 500px) {
+  .accordion-section-title span {
+    float: left;
+    clear: left;
+    margin-top: .5rem;
+  }
 }
 
 .accordion-section-title.active, .accordion-section-title:hover {
