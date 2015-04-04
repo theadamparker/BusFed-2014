@@ -364,12 +364,12 @@ input[type=checkbox]:checked ~ .topnav {
 /* Mobile Nav */
 
 @media only screen 
-and (max-width : 500px) {
+and (max-width : 1024px) {
     
     .topnav {
         position: fixed;
         top: 0;
-        width: 100%;
+        width: 15rem;
         height: 0;
         overflow: hidden;
         padding: 0;
@@ -400,6 +400,13 @@ and (max-width : 500px) {
   }
     
 }
+@media only screen 
+and (max-width : 500px) {
+  .topnav {
+      width: 100%;
+      padding: 0;
+  }
+}
 
 /* End of Navigation */
 
@@ -412,6 +419,14 @@ and (max-width : 500px) {
 }
 
 /* centering sections when nav switches to top */
+
+@media only screen 
+and (max-width : 1024px) {
+  .section {
+    padding: 1rem 1.5rem 3rem;
+  }
+}
+
 
 @media only screen 
 and (max-width : 500px) {
