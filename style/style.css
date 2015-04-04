@@ -589,6 +589,13 @@ and (max-width : 500px) {
   margin-left: calc(10% + 3rem);
 }
 
+@media only screen 
+and (max-width : 500px) {
+  #affiliates .item:first-child {
+    margin-left: 0;
+  }
+}
+
 figure {
     font-family: 'Rokkitt', serif;
     font-size: 5rem;
