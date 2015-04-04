@@ -100,6 +100,10 @@ table {
   width: 25%;
 }
 
+.col-1-6 {
+  width: 16.666666%;
+}
+
 /*FB Post Grid*/
 
 #executivedirector > .pad {
