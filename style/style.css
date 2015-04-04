@@ -293,6 +293,13 @@ h4-graphics {
   font-weight: 400;
 }
 
+h4-graphics-grey {
+  font-size: 1rem;
+  color: #A0A0A0;
+  text-transform: none;
+  font-weight: 400;
+}
+
 h5 {
   font-family: 'Rokkitt', serif;
   font-size: 1.2rem;
