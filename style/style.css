@@ -790,6 +790,37 @@ img.issue {
   margin-bottom: 1rem;
 }
 
+#by figure {
+  border-left: 1px solid white;
+  text-align: left;
+  padding: 2rem 0 2rem 1.5rem;
+}
+
+@media only screen 
+and (max-width : 500px) {
+  #by figure {
+    border-left: 0;
+    border-top: 1px solid white;
+  }
+}
+
+figure figcaption {
+  font-size: 2rem;
+  text-align: left;
+  margin-bottom: .5rem;
+}
+
+#by figure p {
+  font-size: 10rem;
+  color: blue;
+  margin: 0;
+  line-height: .8;
+  color: #eba713;
+  letter-spacing: -0.1rem;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
 .actions {
   border-top: 1px solid #d7d9db;
   width: 100%;
