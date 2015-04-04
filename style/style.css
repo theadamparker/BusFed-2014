@@ -143,8 +143,29 @@ and (max-width : 500px) {
   height: 40rem;
 }
 
+.likes p {
+  color: #3b5998;
+}
+
+.likes p span {
+  color: #000;
+}
+
+.facebook .likes img {
+  width: 1.1rem;
+  display: inline;
+}
+
 @media only screen 
 and (max-width : 500px) {
+
+  #executivedirector {
+    padding: 0;
+  }
+
+  #executivedirector .pad {
+    margin: 0 1.5rem;
+  }
 
   #executivedirector .col-1-3 {
     margin-bottom: 1.5rem;
