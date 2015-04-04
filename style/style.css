@@ -881,6 +881,20 @@ footer > .grid > .col-1-3:first-of-type {
   clear: both;
 }
 
+footer a:link {
+    color: #FFF;
+    text-decoration: underline;
+}
+footer a:visited {
+    color: #FFF;
+}
+footer a:hover {
+    color: #eaa613;
+}
+footer a:active {
+    color: #eaa613;
+}
+
 
 /*----- Masonry Grid -----*/
 
