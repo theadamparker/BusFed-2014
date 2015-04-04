@@ -15,11 +15,15 @@ function drawChartRev() {
     ['Other Revenue', 694]
   ]);
 
+  var formatter = new google.visualization.NumberFormat(
+    {negativeColor: 'red', negativeParens: true, pattern: '$###,###'});
+      formatter.format(data, 1);
+
   // Set chart options
   var options = { backgroundColor: 'transparent' , 
     legend:{ position:'none' } , 
-    'width':400,
-    'height':400,
+    width: '100%',
+    height: '100%',
     chartArea: {
       width: 400 ,
       height: 400 },
@@ -52,11 +56,15 @@ function drawChartExp() {
     ['Fiscal Sponsorship Fees', 19792]
   ]);
 
+  var formatter = new google.visualization.NumberFormat(
+    {negativeColor: 'red', negativeParens: true, pattern: '$###,###'});
+      formatter.format(data, 1);
+
   // Set chart options
   var options = { backgroundColor: 'transparent' , 
     legend:{ position:'none' } , 
-    'width':400,
-    'height':400,
+    width: '100%',
+    height: '100%',
     chartArea: {
       width: 400 ,
       height: 400 },

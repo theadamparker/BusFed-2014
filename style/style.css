@@ -597,6 +597,22 @@ figcaption {
     color: #0DC3F2;
 }
 
+.chart {
+  position: relative;
+  padding-bottom: 90%;
+  height: 0;
+  overflow: hidden;
+}
+
+#chart_revenue,
+#chart_expenses {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
 .orangedivide {
     width: 100%;
     border-bottom: 1px solid #FDB913;
