@@ -291,6 +291,13 @@ h2 {
   margin-bottom: 9rem;
 }
 
+@media only screen 
+and (max-width : 500px) {
+  #of .module {
+    margin-bottom: 0;
+  }
+}
+
 #by h2 {
   color: #fff;
 }
@@ -342,6 +349,13 @@ h4.graphics-grey {
 
 h4.montana {
   margin-top: 9rem;
+}
+
+@media only screen 
+and (max-width : 500px) {
+  h4.montana {
+    margin-top: 4rem;
+  }
 }
 
 h5 {
