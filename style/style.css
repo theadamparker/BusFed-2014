@@ -960,6 +960,7 @@ footer .icon {
   margin-right: .5rem;
   margin-bottom: 1rem;
   float: left; 
+  clear: left;
 }
 
 footer .logo {
@@ -1078,6 +1079,10 @@ footer a:active {
 
 .hovertext:hover {
   opacity: 1
+}
+
+.left {
+  float: left;
 }
 
 
