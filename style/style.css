@@ -162,7 +162,7 @@ and (max-width : 500px) {
 and (max-width : 500px) {
 
   #executivedirector {
-    padding: 0;
+    padding: 1rem 0;
   }
 
   #executivedirector .pad {
@@ -245,6 +245,14 @@ h1 {
   text-align: center;
   margin: 2rem 0 .2rem;
   color: #0DC3F2;
+  line-height: .9;
+}
+
+@media only screen 
+and (max-width : 500px) {
+  #executivedirector h1 {
+    margin-bottom: 1.5rem;
+  }
 }
 
 /* H1 Subtitle */
@@ -611,6 +619,14 @@ and (max-width : 500px) {
     color: #fff;
 }
 
+@media only screen 
+and (max-width : 500px) {
+  #by > .grid-pad {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 1rem;
+  }
+}
+
 #about {
   background: #3D3D3D;
 }
@@ -732,16 +748,16 @@ p.emphasis {
 and (max-width : 500px) {
   [class*='headertab-'] {
     width: 100%;
+    margin: 0 0 1.5rem;
+    padding: .5rem .8rem;
   }
 
   .headertab-left {
-    margin-left: 0;
-    padding-left: 0;
+
   }
 
   .headertab-right {
-    margin-right: 0;
-    padding-right: 0;
+
   }
 
 }
