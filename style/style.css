@@ -732,16 +732,16 @@ p.emphasis {
 and (max-width : 500px) {
   [class*='headertab-'] {
     width: 100%;
+    margin: 0 0 1.5rem;
+    padding: .5rem .8rem;
   }
 
   .headertab-left {
-    margin-left: 0;
-    padding-left: 0;
+
   }
 
   .headertab-right {
-    margin-right: 0;
-    padding-right: 0;
+
   }
 
 }
