@@ -287,6 +287,10 @@ h2 {
   color: #0DC3F2;
 }
 
+#of .module {
+  margin-bottom: 9rem;
+}
+
 #by h2 {
   color: #fff;
 }
@@ -322,18 +326,22 @@ h4 {
 }
 
 
-h4-graphics {
+h4.graphics {
   font-size: 1rem;
   color: #0DC3F2;
   text-transform: none;
   font-weight: 400;
 }
 
-h4-graphics-grey {
+h4.graphics-grey {
   font-size: 1rem;
   color: #A0A0A0;
   text-transform: none;
   font-weight: 400;
+}
+
+h4.montana {
+  margin-top: 9rem;
 }
 
 h5 {
