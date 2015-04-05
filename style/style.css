@@ -611,6 +611,14 @@ and (max-width : 500px) {
     color: #fff;
 }
 
+@media only screen 
+and (max-width : 500px) {
+  #by > .grid-pad {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 1rem;
+  }
+}
+
 #about {
   background: #3D3D3D;
 }
