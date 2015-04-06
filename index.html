@@ -715,37 +715,53 @@
                 <p>(Oregon) Bus Project Foundation</p>
                 <p>The Washington Bus Education Fund</p>
             </div>
-           <div class="item">
-               <span class="hovertext">Oregon Bus Project</span>
-               <img title="Oregon Bus Project" src="img/affiliates1_oregon.jpg">
+           <div class="item viewport">
+               <a>
+                   <span class="dark-background">Oregon Bus Project</span>
+                   <img title="Oregon Bus Project" src="img/affiliates1_oregon.jpg">
+               </a>
            </div>
-           <div class="item">
-               <span class="hovertext">MOVE San Antonio</span>
-               <img title="MOVE San Antonio" src="img/affiliates2_sanantonio.jpg">
+           <div class="item viewport">
+               <a>
+                   <span class="dark-background">MOVE San Antonio</span>
+                   <img title="MOVE San Antonio" src="img/affiliates2_sanantonio.jpg">
+               </a>
            </div>
-           <div class="item">
-               <span class="hovertext">Ohio Student Association</span>
-               <img title="Ohio Student Association" src="img/affiliates3_ohio.jpg">
+           <div class="item viewport">
+               <a>
+                   <span class="dark-background">Ohio Student Association</span>
+                   <img title="Ohio Student Association" src="img/affiliates3_ohio.jpg">
+               </a>
            </div>
-           <div class="item">
-               <span class="hovertext">New Era Colorado</span>
-               <img title="New Era Colorado" src="img/affiliates4_colorado.jpg">
+           <div class="item viewport">
+               <a>
+                   <span class="dark-background">New Era Colorado</span>
+                   <img title="New Era Colorado" src="img/affiliates4_colorado.jpg">
+               </a>
            </div>
-           <div class="item">
-               <span class="hovertext">The Washington Bus</span>
-               <img title="The Washington Bus" src="img/affiliates5_washington.jpg">
+           <div class="item viewport">
+               <a>
+                   <span class="dark-background">The Washington Bus</span>
+                   <img title="The Washington Bus" src="img/affiliates5_washington.jpg">
+               </a>
            </div>
-           <div class="item">
-               <span class="hovertext">Forward Montana</span>
-               <img title="Forward Montana" src="img/affiliates6_montana.jpg">
+           <div class="item viewport">
+               <a>
+                   <span class="dark-background">Forward Montana</span>
+                   <img title="Forward Montana" src="img/affiliates6_montana.jpg">
+               </a>
            </div>
-           <div class="item">
-               <span class="hovertext">Chicago Votes</span>
-               <img title="Chicago Votes" src="img/affiliates7_chicago.jpg">
+           <div class="item viewport">
+               <a>
+                   <span class="dark-background">Chicago Votes</span>
+                   <img title="Chicago Votes" src="img/affiliates7_chicago.jpg">
+               </a>
            </div>
-           <div class="item">
-               <span class="hovertext">Bus Federation Civic Fund</span>
-               <img title="Bus Federation Civic Fund" src="img/busfed_group.jpg">
+           <div class="item viewport">
+               <a>
+                   <span class="dark-background">Bus Federation Civic Fund</span>
+                   <img title="Bus Federation Civic Fund" src="img/busfed_group.jpg">
+               </a>
            </div>
         </div> 
                  
@@ -841,6 +857,16 @@
                     e.preventDefault();
                 });
             });
+
+            // rollovers
+
+            $(document).ready(function() {
+                $('.viewport').mouseenter(function(e) {
+                    $(this).children('a').children('span').fadeIn(200);
+                }).mouseleave(function(e) {
+                    $(this).children('a').children('span').fadeOut(200);
+                });
+            }); 
             
         </script>
     </body>
