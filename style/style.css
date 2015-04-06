@@ -1104,31 +1104,51 @@ footer a:active {
     }
 }
 
-.hovertext {
-  z-index: 2;
-  position: absolute;
-  text-align: center;
-  background-color:rgba(0,0,0,0.8);
-  color: #fff;
-  width: calc(100% - 2rem);
-  height: calc(100% - 2rem);
-  padding-top: 20%;
-  font-size: 1.5rem;
-  opacity: 0;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.hovertext:hover {
-  opacity: 1
-}
-
 .left {
   float: left;
 }
 
+.viewport {
+    overflow: hidden;
+    position: relative;
+}
 
+.viewport a {
+    display: block;
+    position: relative;
+}
+
+.viewport a img {
+    position: relative;
+}
+
+.viewport a span {
+    display: none;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    font-weight: 700;
+    height: 100%;
+    padding-top: 5rem;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    z-index: 10;
+}
+
+@media only screen 
+and (max-width : 500px) {
+
+  .viewport a span {
+      font-size: 1rem;
+      padding-top: 1rem;
+  }
+
+}
+
+.dark-background {
+    background-color: rgba(15, 15, 15, 0.6);
+    color: #fff;
+}
 
 
