@@ -723,8 +723,8 @@ figcaption {
   padding-left: 0;
   padding-right: 0;
   box-shadow: 65px 0 0 rgba(13, 195, 242, 0.6), -65px 0 0 rgba(13, 195, 242, 0.6);
-  moz-box-shadow: 65px 0 0 rgba(13, 195, 242, 0.6), -65px 0 0 rgba(13, 195, 242, 0.6);
-  webkit-box-shadow: 65px 0 0 rgba(13, 195, 242, 0.6), -65px 0 0 rgba(13, 195, 242, 0.6);
+  -moz-box-shadow: 65px 0 0 rgba(13, 195, 242, 0.6), -65px 0 0 rgba(13, 195, 242, 0.6);
+  -webkit-box-shadow: 65px 0 0 rgba(13, 195, 242, 0.6), -65px 0 0 rgba(13, 195, 242, 0.6);
 }
 
 #by .emphasis {
