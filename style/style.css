@@ -669,7 +669,6 @@ and (max-width : 500px) {
 
 #affiliates .item:first-child {
   background: none;
-  margin-left: calc(10% + 3rem);
 }
 
 @media only screen 
@@ -1058,7 +1057,6 @@ footer a:active {
 
 .masonry {
   width: 100%;
-  padding: 0;
   -moz-column-gap: 1.5rem;
   -webkit-column-gap: 1.5rem;
   column-gap: 1.5rem;
