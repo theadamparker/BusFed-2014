@@ -579,7 +579,7 @@ and (min-width : 500px) {
   font-family: 'Helvetica Neue', Helvetica, arial, sans-serif;
   text-align: left;
   padding-right: 5rem;
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
 }
 
@@ -726,7 +726,7 @@ figcaption {
   display: inline;
   background: rgba(13, 195, 242, 0.6);
   color: white; 
-  line-height: 6rem;
+  line-height: 5.25rem;
   padding: .25rem;
   padding-left: 0;
   padding-right: 0;
