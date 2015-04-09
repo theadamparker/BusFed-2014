@@ -1052,80 +1052,6 @@ footer a:active {
     color: #eaa613;
 }
 
-
-/*----- Masonry Grid -----*/
-
-.masonry {
-  width: 100%;
-  -moz-column-gap: 1.5rem;
-  -webkit-column-gap: 1.5rem;
-  column-gap: 1.5rem;
-  font-size: .75rem;
-}
-
-.item {
-    display: inline-block;
-    background: #333333;
-    padding: 1rem;
-    margin: 0 0 1.5rem;
-    width: 100%;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    position: relative;
-}
-
-.masonry h3 {
-  font-family: 'Rokkitt', serif;
-  font-weight: 400;
-  color: #0db1e0;
-  font-size: 1.8rem;
-  margin-left: 15%;
-}
-
-.masonry p {
-  color: #fff;
-  line-height: 1.5;
-  margin-left: 15%;
-  font-size: 1rem;
-}
-
-@media only screen and (min-width: 400px) {
-    .masonry {
-        -moz-column-count: 2;
-        -webkit-column-count: 2;
-        column-count: 2;
-    }
-}
-
-@media only screen and (min-width: 700px) {
-    .masonry {
-        -moz-column-count: 2;
-        -webkit-column-count: 2;
-        column-count: 2;
-    }
-}
-
-@media only screen and (min-width: 900px) {
-    .masonry {
-        -moz-column-count: 3;
-        -webkit-column-count: 3;
-        column-count: 3;
-    }
-}
-
-@media only screen and (min-width: 1100px) {
-    .masonry {
-        -moz-column-count: 3;
-        -webkit-column-count: 3;
-        column-count: 3;
-    }
-}
-
-.left {
-  float: left;
-}
-
 .viewport {
     overflow: hidden;
     position: relative;
@@ -1168,5 +1094,80 @@ and (max-width : 500px) {
     background-color: rgba(15, 15, 15, 0.6);
     color: #fff;
 }
+
+/*----- Masonry Grid -----*/
+
+.masonry {
+  width: 100%;
+  font-size: .75rem;
+}
+
+.item {
+    display: inline-block;
+    background: #333333;
+    padding: 1rem;
+    margin: 0 1.5rem 1.5rem 0;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+    width: calc(33% - 1.5rem);
+}
+
+@media only screen 
+and (min-width : 1001px) {
+
+  .item:nth-child(3n+3) {
+    margin-right: 0;
+  }
+
+}
+
+@media only screen 
+and (max-width : 1000px) {
+
+  .item {
+      width: calc(50% - 1.5rem);
+  }
+
+  .item:nth-child(2n+2) {
+    margin-right: 0;
+  }
+
+  .viewport a span {
+    padding-top: 2rem;
+  }
+
+}
+
+@media only screen 
+and (max-width : 600) {
+
+  .item {
+      width: 100%;
+  }
+
+}
+
+.masonry h3 {
+  font-family: 'Rokkitt', serif;
+  font-weight: 400;
+  color: #0db1e0;
+  font-size: 1.8rem;
+  margin-left: 15%;
+}
+
+.masonry p {
+  color: #fff;
+  line-height: 1.5;
+  margin-left: 15%;
+  font-size: 1rem;
+}
+
+.left {
+  float: left;
+}
+
 
 
