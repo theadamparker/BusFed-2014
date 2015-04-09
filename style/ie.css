@@ -1,0 +1,40 @@
+
+.item {
+    margin: 0 1.5rem 1.5rem 0;
+    width: calc(33% - 1.5rem);
+}
+
+@media only screen 
+and (min-width : 1001px) {
+
+  .item:nth-child(3n+3) {
+    margin-right: 0;
+  }
+
+}
+
+@media only screen 
+and (max-width : 1000px) {
+
+  .item {
+      width: calc(50% - 1.5rem);
+  }
+
+  .item:nth-child(2n+2) {
+    margin-right: 0;
+  }
+
+  .viewport a span {
+    padding-top: 2rem;
+  }
+
+}
+
+@media only screen 
+and (max-width : 600px) {
+
+  .item {
+      width: 100%;
+  }
+
+}
