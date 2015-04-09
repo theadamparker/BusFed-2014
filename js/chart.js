@@ -8,11 +8,12 @@ function drawChartRev() {
   data.addColumn('string', 'Topping');
   data.addColumn('number', 'Slices');
   data.addRows([
-    ['Grants', 721600],
-    ['Contributions', 136936],
+    ['Foundations', 671350],
+    ['Individuals', 141186],
+    ['Labor', 35000],
+    ['Businesses', 11000],
     ['In-Kind Contributions', 5617],
-    ['Interest Income', 1025],
-    ['Other Revenue', 694]
+    ['Other Revenue', 1719]
   ]);
 
   var formatter = new google.visualization.NumberFormat(
@@ -27,7 +28,7 @@ function drawChartRev() {
     chartArea: {
       width: 400 ,
       height: 400 },
-    colors: ['#14b2db', '#109bba', '#1b849c', '#286a7c'],
+    colors: ['#14b2db', '#109bba', '#1b849c', '#286a7c', '#1f525e', '#174249'],
     pieSliceBorderColor : "transparent"
     };
 
