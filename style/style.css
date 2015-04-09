@@ -1185,6 +1185,15 @@ and (max-width : 500px) {
     margin-bottom: 0;
   }
 
+  #by h1 + p,
+  #about h1 + p {
+    margin-bottom: 2rem;
+  }
+
+  #progress h3 {
+    font-size: 1.1rem;
+  }
+
 }
 
 [class*='col-'] img {
