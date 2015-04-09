@@ -1169,4 +1169,26 @@ and (max-width : 500px) {
     color: #fff;
 }
 
+@media only screen 
+  and (min-width: 600px) 
+  and (max-width: 1024px) {
+
+  #by figure p {
+    font-size: 7rem;
+  }
+
+  #of .module {
+    margin-bottom: 4rem; 
+  }
+
+  .section h1 + p {
+    margin-bottom: 0;
+  }
+
+}
+
+[class*='col-'] img {
+  max-width: 100%;
+}
+
 
